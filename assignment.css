@@ -1,0 +1,127 @@
+.width_100{
+    width: 100%;
+}
+.navbar-brand{
+    width: 100%;
+}
+.button_div{
+    width:50%;
+    height:50px;
+}
+.button_Active{
+    background-color:blue;
+}
+.button_Deactive{
+    background-color:lightblue;
+}
+@media (min-width: 991px) {
+    .sidebar {
+        position:fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 20%;
+        display: inline-block;
+        }
+    .margin_20{
+        margin-left:30%;
+        font-size:x-large;
+        }
+    .header_border{
+        border-top: 1px solid black;
+        }
+    .card{
+        width:10%;
+        height:100%;
+        border-radius: 5px;
+        border-color: blue;
+        margin: 5px;
+        font-size: small;
+    }
+    .cardActive{
+        width:10%;
+        height:100%;
+        border-radius: 5px;
+        border-color: blue;
+        margin: 5px;
+        font-size: small;
+        background-color: green;
+    }
+    .slot{
+        width:30%;
+        height:auto;
+        border: 1px solid blue;
+        margin: 5px;
+        font-size:large;
+     }
+     .slotActive{
+        width:30%;
+        height: auto;
+        border: 1px solid blue;
+        margin: 5px;
+        font-size:large;
+        background-color: green;
+     }
+  }
+
+@media (max-width: 990px) {
+    .sidebar {
+        position:sticky;
+        width: 100%;
+        display:inline-flex;
+    }
+    .margin_20{
+        font-size:large;
+    }
+    .header_border{
+        border-top:none;
+        }
+    .card{
+        width:20%;
+        height:100%;
+        border-radius: 5px;
+        border-color: blue;
+        margin: 5px;
+        font-size: small;
+    }
+    .cardActive{
+        width:20%;
+        height:100%;
+        border-radius: 5px;
+        border-color: blue;
+        margin: 5px;
+        font-size: small;
+        background-color: blue;
+        text-decoration-color: white;
+    }
+    .slot{
+       width:30%;
+       height:auto;
+       border: 1px solid blue;
+       margin: 5px;
+       font-size: large;
+    }
+    .slotActive{
+       width:30%;
+       height:auto;
+       border: 1px solid blue;
+       margin: 5px;
+       font-size: large;
+       background-color: green;
+    }
+  }
+.width_10{
+    width:5%
+}
+.hr{
+    height:5px;
+    border: none;
+    font-size: xx-large;
+}
+.payButton{
+    width:auto;
+}
+.slot_div{
+    width:40%;
+    height: auto;
+}
