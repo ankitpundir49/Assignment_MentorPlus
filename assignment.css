@@ -48,14 +48,14 @@
         background-color: green;
     }
     .slot{
-        width:30%;
+        width:auto;
         height:auto;
         border: 1px solid blue;
         margin: 5px;
         font-size:large;
      }
      .slotActive{
-        width:30%;
+        width:auto;
         height: auto;
         border: 1px solid blue;
         margin: 5px;
@@ -95,14 +95,14 @@
         text-decoration-color: white;
     }
     .slot{
-       width:30%;
+       width:auto;
        height:auto;
        border: 1px solid blue;
        margin: 5px;
        font-size: large;
     }
     .slotActive{
-       width:30%;
+       width:auto;
        height:auto;
        border: 1px solid blue;
        margin: 5px;

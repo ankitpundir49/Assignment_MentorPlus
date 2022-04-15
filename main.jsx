@@ -72,7 +72,7 @@ class MainView extends Component
                                         <h1>Select Slot</h1>
                                         {slot.map((st,index)=>
                                             <div className={slotIndex===index?"col-1 slotActive  text-center text-light":"col-1 slot text-center"} onClick={()=>this.handleSlotButton(index)}>
-                                                {st.hour} PM
+                                                {st.hour} PM - {st.hour+1} PM
                                             </div>
                                         )}
                                     </div>
