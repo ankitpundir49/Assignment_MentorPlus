@@ -27,9 +27,9 @@ class Date extends Component{
         let year=date.substring(0,4);
         
         return(
-            <div onClick={()=>onDate(index)}>
-                <h6 className="text-center pt-1">{this.day(year,month,dateNo)}</h6>
-                <h1 className="text-center">{dateNo}</h1>
+            <div className="m-0 p-0" onClick={()=>onDate(index)}>
+                <h6 className="text-center">{this.day(year,month,dateNo)}</h6>
+                <h2 className="text-center">{dateNo}</h2>
                 <h6 className="text-center">{month}</h6>
             </div>
         )

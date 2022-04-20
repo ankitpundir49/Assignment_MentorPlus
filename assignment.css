@@ -8,9 +8,6 @@
     width:50%;
     height:50px;
 }
-.button_Active{
-    background-color:blue;
-}
 .button_Deactive{
     background-color:lightblue;
 }
@@ -24,44 +21,73 @@
         display: inline-block;
         }
     .margin_20{
-        margin-left:30%;
-        font-size:x-large;
-        }
-    .header_border{
-        border-top: 1px solid black;
+        margin-top:5%;
+        margin-left:22%;
+        display:flex;
+        font-size:xx-large;
+        font-weight:bolder;
         }
     .card{
-        width:10%;
+        width:6%;
         height:100%;
         border-radius: 5px;
-        border-color: blue;
-        margin: 5px;
-        font-size: small;
+        border:2px solid blue;
+        margin-left: 10px;
+        font-size: auto;
     }
     .cardActive{
-        width:10%;
+        width:6%;
         height:100%;
         border-radius: 5px;
-        border-color: blue;
-        margin: 5px;
-        font-size: small;
+        border:2px solid blue;
+        margin-left: 10px;
         background-color: green;
+        font-size: auto;
     }
     .slot{
         width:auto;
         height:auto;
         border: 1px solid blue;
         margin: 5px;
-        font-size:large;
+        font-size:auto;
+        padding:2px 8px;
      }
      .slotActive{
-        width:auto;
-        height: auto;
         border: 1px solid blue;
         margin: 5px;
-        font-size:large;
+        font-size:auto;
         background-color: green;
+        padding:2px 8px;
      }
+     .header_line{
+         border-top:1px solid lightgrey;
+     }
+     .width_4{
+        width:3%;
+    }
+    .dashred{
+        padding: 0px;
+        width:4%;
+        height:5px;
+        border:2px solid red;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background-color: red;
+    }
+    .dashblue{
+        padding: 0px;
+        width:4%;
+        height:5px;
+        border:2px solid blue;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        background-color: blue;
+    }
+    .dateScroll{
+        max-height: 120px;
+        display:flex;
+        overflow-x: auto;
+    }
   }
 
 @media (max-width: 990px) {
@@ -70,27 +96,35 @@
         width: 100%;
         display:inline-flex;
     }
+    .dateScroll{
+        max-height:120px;
+        display: block;
+        overflow-x: auto;
+    }
     .margin_20{
+        margin-left: 5px;
         font-size:large;
+        font-weight:bolder;
     }
     .header_border{
         border-top:none;
         }
     .card{
-        width:20%;
-        height:100%;
+        width:30%;
+        height:auto;
         border-radius: 5px;
-        border-color: blue;
-        margin: 5px;
-        font-size: small;
+        border:2px solid blue;
+        margin-left: 10px;
+        font-size: auto;
+        padding-top: 3px;
     }
     .cardActive{
-        width:20%;
-        height:100%;
+        width:30%;
+        height:auto;
         border-radius: 5px;
-        border-color: blue;
-        margin: 5px;
-        font-size: small;
+        border:2px solid blue;
+        margin-left: 10px;
+        font-size: auto;
         background-color: blue;
         text-decoration-color: white;
     }
@@ -99,7 +133,8 @@
        height:auto;
        border: 1px solid blue;
        margin: 5px;
-       font-size: large;
+       font-size:auto;
+       padding:2px 8px;
     }
     .slotActive{
        width:auto;
@@ -107,21 +142,55 @@
        border: 1px solid blue;
        margin: 5px;
        font-size: large;
-       background-color: green;
+       background-color: blue;
+       padding:2px 8px;
+    }
+    .width_4{
+        width:20%;
+    }
+    .dashred{
+        padding: 0px;
+        width:4%;
+        height:5px;
+        border:2px solid red;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background-color: red;
+    }
+    .dashblue{
+        padding: 0px;
+        width:4%;
+        height:5px;
+        border:2px solid blue;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        background-color: blue;
+    }
+    .dateScroll{
+        max-height: 120px;
+        display:flex;
+        overflow-x: auto;
+    }
+    .inline{
+        display:flex;
+        overflow: scroll;
+        font-size:large;
+    
     }
   }
-.width_10{
-    width:5%
-}
-.hr{
-    height:5px;
-    border: none;
-    font-size: xx-large;
-}
+
 .payButton{
     width:auto;
+    background-color: darkblue;
+    font-size:auto;
+    padding:4px 16px;
+    margin: 5px;
 }
 .slot_div{
     width:40%;
     height: auto;
 }
+
+
+
+
